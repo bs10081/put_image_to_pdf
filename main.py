@@ -89,7 +89,7 @@ def generate_pdfs_from_folders(root_folder):
 # 主程式入口
 if __name__ == "__main__":
     # 根資料夾，包含多個子資料夾，每個子資料夾內含圖片
-    root_folder = "/home/bs10081/Dropbox/Saya_AI_HW2"  # 替換為你的資料夾路徑
+    root_folder = "YOUR_INPUT_FOLDER"  # 替換為你的資料夾路徑
     
     # 開始生成 PDF
     generate_pdfs_from_folders(root_folder)  # 刪除第二個參數 output_folder
